@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CreatorFuel 🚀
 
-## Getting Started
+**CreatorFuel** is a modern, full-stack crowdfunding platform designed to help creators receive support from their audience. Built with **Next.js 15**, **MongoDB**, and **Tailwind CSS v4**, it features a premium glassmorphism UI and real-time payment simulation.
 
-First, run the development server:
+![Project Banner](https://via.placeholder.com/1200x600/0f172a/ffffff?text=CreatorFuel+Preview) 
+*(Replace this link with a screenshot of your Home Page later)*
 
+## ✨ Key Features
+
+- **💸 Real-Time Payments**: Integrated with **Payfast (Sandbox)** to simulate secure transactions.
+- **⚡ Dynamic Supporter Wall**: Supporters' names and custom messages appear **instantly** on the creator's page after payment.
+- **🎨 Premium UI/UX**: Designed with **Tailwind CSS v4**, featuring glassmorphism, smooth animations, and a sleek dark mode.
+- **🔐 Secure Authentication**: Full login system using **NextAuth.js** (GitHub, Google, & Credentials).
+- **📱 Fully Responsive**: Optimized for all devices, from mobile phones to large desktops.
+- **⚡ High Performance**: Powered by **Next.js 15 App Router** for lightning-fast page loads.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15 (App Router), React, Tailwind CSS v4
+- **Backend**: Next.js API Routes (Serverless)
+- **Database**: MongoDB (Mongoose ODM)
+- **Authentication**: NextAuth.js v4
+- **Payments**: Payfast Integration (Sandbox Environment)
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/creatorfuel.git
+cd creatorfuel
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install Dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Configure Environment Variables
+Create a `.env.local` file in the root directory and add the following:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+# Database
+MONGODB_URI=your_mongodb_connection_string
 
-## Learn More
+# Authentication
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_super_secret_key
+GITHUB_ID=your_github_client_id
+GITHUB_SECRET=your_github_client_secret
+GOOGLE_ID=your_google_client_id
+GOOGLE_SECRET=your_google_client_secret
 
-To learn more about Next.js, take a look at the following resources:
+# Payments (Payfast Sandbox)
+NEXT_PUBLIC_PAYFAST_URL=https://sandbox.payfast.co.za/eng/process
+NEXT_PUBLIC_URL=http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Run the Development Server
+```bash
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deploy on Vercel
+## 🚢 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is optimized for deployment on **Vercel**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  Push your code to GitHub.
+2.  Import the repository in Vercel.
+3.  Add the Environment Variables in the Vercel Dashboard.
+4.  Click **Deploy**.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a Pull Request.
+
+---
+
+**Developed with ❤️ by [Your Name]**
