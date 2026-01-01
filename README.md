@@ -2,8 +2,7 @@
 
 **CreatorFuel** is a modern, full-stack crowdfunding platform designed to help creators receive support from their audience. Built with **Next.js 15**, **MongoDB**, and **Tailwind CSS v4**, it features a premium glassmorphism UI and real-time payment simulation.
 
-![Project Banner](https://via.placeholder.com/1200x600/0f172a/ffffff?text=CreatorFuel+Preview) 
-*(Replace this link with a screenshot of your Home Page later)*
+<img width="1353" height="521" alt="Screenshot 2025-12-30 191134" src="https://github.com/user-attachments/assets/b7ca7813-5048-444b-bbf6-566de2e529a2" />
 
 ## ✨ Key Features
 
@@ -28,7 +27,7 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/creatorfuel.git
+git clone https://github.com/username/creatorfuel.git
 cd creatorfuel
 ```
 
@@ -79,4 +78,4 @@ Contributions are welcome! Feel free to open an issue or submit a Pull Request.
 
 ---
 
-**Developed with ❤️ by [Your Name]**
+**Developed by Emmad**
